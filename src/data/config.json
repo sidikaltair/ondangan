@@ -1,65 +1,60 @@
 {
   "pegantin": {
     "pria": {
-      "foto": "https://slametandfatma.wedding/galeri/slamett.jpeg",
-      "panggilan": "Slamet",
-      "nama": "Slamet Riyadi",
-      "bapak": "Arpa",
-      "ibu": "Hasiri"
+      "foto": "/assets/nikah/LR-05467.jpg",
+      "panggilan": "Sidik",
+      "nama": "Muhamad Sidik Firdaus",
+      "bapak": "Supriyadi",
+      "ibu": "Enung Rohayati"
     },
     "wanita": {
-      "foto": "https://slametandfatma.wedding/galeri/fatmaa.jpeg",
-      "panggilan": "Fatma",
-      "nama": "Fatmawati",
-      "bapak": "Suyadi",
-      "ibu": "Parjinem"
+      "foto": "/assets/nikah/LR-05324.jpg",
+      "panggilan": "Risma ",
+      "nama": "Risma Julianti",
+      "bapak": "Maman Cepi",
+      "ibu": "Iis Iseu"
     }
   },
-  "audio_url": "https://slametandfatma.wedding/audio/myaudio.mp3",
-  "tanggal_pernikahan": "20 April 2025",
-  "thumbnail_image_url": "https://slametandfatma.wedding/galeri/nikahfix.jpg",
-  "url_video": "https://slametandfatma.wedding/video/myvideo.mp4",
-  "intro": "Setelah Slamet dan Fatma dipertemukan dalam situasi yang tepat, di mana keduanya telah siap untuk memulai hubungan bersama, tibalah mereka di awal perjalanan baru menuju pernikahan.",
-  "breaking_news_img": "https://slametandfatma.wedding/galeri/news.jpg",
-  "breaking_news_content": "<p>Halo! Karena kalian adalah orang penting yang mengisi hari-hari kami, kami ingin informasikan bahwa kami akan segera menikah! &lt;3 </p><p className=\"mt-4\"> Tapi sebelumnya, kami mohon maaf kepada teman dan kerabat semua karena tidak bisa mengundang kalian hadir di hari bahagia kami, dikarenakan pernikahan kami bersifat intimate wedding yang dilaksanakan di Bekasi dan hanya dihadiri oleh keluarga dan orang terdekat.</p><p className=\"mt-4\">Walaupun begitu, kami harapkan sebaik-baiknya doa untuk kelancaran pernikahan dan hari-hari bahagia setelahnya.</p><p className=\"mt-4\">Dengan penuh cinta,</p><p>The bride and groom &lt;3</p>",
-  "love_story": [
+  "audio_url": "/assets/nikah/My Only One.mp4",
+  "tanggal_pernikahan": "9 November 2025",
+  "thumbnail_image_url": "/assets/nikah/test.jpg",
+  "url_video": "/assets/nikah/prawedding_vlog.mp4",
+  "intro": "This is not the end. This is our beggining journey until jannah.",
+  "breaking_news_img": "/assets/nikah/LR-05451@-1895149615 (1).jpg",
+  "breaking_news_content": "<p>sidik dan july rek kawin! &lt;3 </p><p className=\"mt-4\"> Dalam perjalanan panjang yang penuh warna, tawa, dan air mata, kami belajar bahwa cinta sejati bukanlah tentang kesempurnaan,melainkan tentang dua hati yang saling bertahan dan saling menemukan di setiap ujian waktu. Perjalanan kami tidak selalu mudah — ada masa di mana langkah terasa berat</p><p className=\"mt-4\">Kini, dengan penuh rasa syukur dan cinta yang tumbuh di antara doa-doa,kami ingin berbagi kabar bahagia kepada dunia….</p><p className=\"mt-4\">Dengan penuh cinta,</p><p>The bride and groom &lt;3</p>",
+  "love_story": false,
+  "gallery": [
+    "/assets/nikah/LR-05629 (4)@-1586275368 (1).jpg",
+    "/assets/nikah/LR-05634@-174629992 (1).jpg",
+    "/assets/nikah/LR-05706@628833278 (1).jpg",
+    "/assets/nikah/LRG05660 (3)@1800099986 (1).jpg",
+    "/assets/nikah/LR-05857.jpg",
+    "/assets/nikah/LR-05428@-1974572421 (1).jpg",
+    "/assets/nikah/LR-05435@-1948713833 (1).jpg",
+    "/assets/nikah/LR-05466.jpg",
+    "/assets/nikah/LRG05769@-11005087 (1).jpg"
+  ],
+  "wedding_gift": [
     {
-      "image_url": "https://slametandfatma.wedding/galeri/story1.jpeg",
-      "title": "Episode 1: How We Met Each Other that Time",
-      "description": "Slamet dan Fatma pertama kali bertemu pada tahun 2015 sebagai teman satu regu saat masa orientasi siswa Sekolah Menengah Kejuruan."
+      "logo": "/assets/nikah/Bank_Mandiri_logo_2016.svg",
+      "bank": "Mandiri",
+      "number": "1320027623322",
+      "name": "Muhamad Sidik Firdaus"
     },
     {
-      "image_url": "https://slametandfatma.wedding/galeri/story2.jpg",
-      "title": "Episode 2: A Love That Grows With Time",
-      "description": "Selama 1 tahun berteman, akhirnya mereka menyadari bahwa perasaan yang mereka miliki satu sama lain bukan hanya sebatas teman sekolah belaka, melainkan..."
-    },
-    {
-      "image_url": "https://slametandfatma.wedding/galeri/story3.jpeg",
-      "title": "Episode 3: Choose to Spend Life Together",
-      "description": "Setelah 8 tahun lebih menjalin hubungan, pada Desember 2024 Slamet menyampaikan niatnya untuk melamar Fatma."
-    },
-    {
-      "image_url": "https://slametandfatma.wedding/galeri/story4.jpeg",
-      "title": "[Coming Soon] Final Episode: The Beginning of Forever",
-      "description": "Ketika hari H itu datang, Slamet dan Fatma akan berbagi kisah haru mereka di sini. Sampai bertemu lagi di cerita bahagia selanjutnya!"
+      "logo": "/assets/nikah/Bank_Negara_Indonesia_logo_(2004).svg",
+      "bank": "BNI",
+      "number": "1232541450",
+      "name": "Risma Julianti"
     }
   ],
-  "gallery": [
-    "https://slametandfatma.wedding/galeri/1.jpg",
-    "https://slametandfatma.wedding/galeri/2.jpg",
-    "https://slametandfatma.wedding/galeri/3.jpg",
-    "https://slametandfatma.wedding/galeri/4.jpg",
-    "https://slametandfatma.wedding/galeri/5.jpg",
-    "https://slametandfatma.wedding/galeri/6.jpg",
-    "https://slametandfatma.wedding/galeri/7.jpg",
-    "https://slametandfatma.wedding/galeri/8.jpg",
-    "https://slametandfatma.wedding/galeri/9.jpg"
-  ],
+
   "show_menu": {
     "breaking_news": true,
     "bride_and_groom": true,
-    "love_story": true,
+    "love_story": false,
     "gallery": true,
-    "wish": true
+    "wish": true,
+    "wedding_gift": true
   }
 }

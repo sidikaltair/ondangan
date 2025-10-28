@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import DetailInfo from '../detail-info';
-import data from '../../../data/config.json';
+import React, { useEffect } from "react";
+import DetailInfo from "../detail-info";
+import data from "../../../data/config.json";
 
 const TagItem = ({ title }) => {
   return (
@@ -29,12 +29,12 @@ export default function Thumbnail() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    window.addEventListener('touchmove', handleTouchMove, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("touchmove", handleTouchMove, { passive: true });
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('touchmove', handleTouchMove);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("touchmove", handleTouchMove);
     };
   }, []);
 
@@ -51,16 +51,16 @@ export default function Thumbnail() {
       <div className="pb-10  pt-2 bg-gradient-to-b from-transparent via-black to-black">
         <div className="px-5 mb-10 space-y-2">
           <img
-            src="/images/NIKAHFIX.webp"
-            alt="NIKAHFIX"
+            src="/assets/nikah/logoo.png"
+            alt="RISMA & SIDIK"
             width={56}
             height={15}
           />
           <div>
             <h1 className="font-bold text-3xl leading-none">
-              {data.pegantin.wanita.panggilan} & {data.pegantin.pria.panggilan}:{' '}
+              {data.pegantin.wanita.panggilan} & {data.pegantin.pria.panggilan}:{" "}
               <br />
-              Sebelum Hari H
+              Final Prologue
             </h1>
           </div>
           <div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '../../../data/config.json';
+import React from "react";
+import data from "../../../data/config.json";
 
 export default function TitleInfo() {
   return (
@@ -12,7 +12,7 @@ export default function TitleInfo() {
       </div>
       <h2 className="text-lg leading-5 text-white font-bold">
         {data.pegantin.wanita.panggilan} &amp; {data.pegantin.pria.panggilan}:
-        Sebelum Hari H
+        Final Prologue
       </h2>
       <div className="flex gap-1 items-center">
         <span className="text-green-500 mr-2">100% match</span>
@@ -20,7 +20,7 @@ export default function TitleInfo() {
           SU
         </span>
         <span className="text-white mr-2">
-          {data.tanggal_pernikahan.split('-')[0]}
+          {data.tanggal_pernikahan.split("-")[0]}
         </span>
         <span className="text-white mr-2">1h 26m</span>
         <span>
@@ -31,7 +31,7 @@ export default function TitleInfo() {
         </span>
       </div>
       <div className="bg-[#E50913] py-1 px-2 rounded text-xs text-white font-bold w-fit">
-        Coming soon on Saturday, {data.tanggal_pernikahan}
+        Coming soon on Sunday, {data.tanggal_pernikahan}
       </div>
       <div className="pt-2">
         <p className="text-white text-sm leading-[1.15rem] mb-2">

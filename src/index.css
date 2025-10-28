@@ -1,0 +1,60 @@
+.card-container {
+  background: linear-gradient(
+    to bottom,
+    #3b0a45,
+    #ff6600
+  ); /* Gradien biru ke oranye */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan lembut */
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek hover */
+}
+
+.card-container:hover {
+  transform: translateY(-10px); /* Efek gerak saat hover */
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00ff99; /* Neon cyan */
+  margin-bottom: 15px;
+}
+
+.card-container p {
+  font-size: 18px;
+  color: #f4f4f4; /* Teks putih lembut */
+}
+
+.bank-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bank-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.bank-info b {
+  color: #ffcc00; /* Neon kuning */
+}
+
+.button {
+  background: #ff5c8d;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff3366; /* Hover dengan warna berbeda */
+}

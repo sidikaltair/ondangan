@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '../../../data/config.json';
+import React from "react";
+import data from "../../../data/config.json";
 
 const LoveItem = ({ imageUrl, title, duration, description }) => {
   return (
@@ -10,7 +10,7 @@ const LoveItem = ({ imageUrl, title, duration, description }) => {
             className="w-full rounded-md object-cover"
             height={100}
             style={{
-              maxHeight: '100px',
+              maxHeight: "100px",
             }}
             src={imageUrl}
             alt="dummy"
