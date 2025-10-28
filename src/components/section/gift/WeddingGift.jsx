@@ -22,7 +22,7 @@ export default function WeddingGift() {
         Wedding Gift 💫
       </h2>
       <p className="text-gray-300 mb-6">
-        Terima kasih atas doa dan dukungan dari teman-teman 💖
+        Terima kasih atas doa dan dukungan dari teman-teman sekalian 💖
       </p>
 
       <div className="space-y-4">

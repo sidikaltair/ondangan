@@ -13,7 +13,7 @@ export default function Footer() {
           See you on our wedding day! 🤍
         </p>
         <p className="text-white text-sm italic">
-          Can’t wait to see u again! &lt;3
+          Can’t wait to see u on venue and lets bring happiness! &lt;3
         </p>
       </div>
       <div className="mt-8 flex flex-col items-center">
