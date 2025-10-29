@@ -5,10 +5,19 @@ export default function UserWatch({ onClick }) {
   const [to, setTo] = useState("Guest");
 
   useEffect(() => {
-    if (window) {
+    if (typeof window !== "undefined") {
       const url = new URL(window.location.href);
-      const to = url.searchParams.get("to");
-      setTo(to ? to : "Guest");
+      const toParam = url.searchParams.get("to");
+
+      if (toParam) {
+        // ubah tanda "-" jadi spasi dan kapital setiap kata
+        const formatted = toParam
+          .replace(/-/g, " ")
+          .replace(/\b\w/g, (char) => char.toUpperCase());
+        setTo(formatted);
+      } else {
+        setTo("Guest");
+      }
     }
   }, []);
 

@@ -55,7 +55,9 @@ export default function WishSection() {
       const { data: newData, error } = await supabase
         .from(import.meta.env.VITE_APP_TABLE_NAME)
         .select("name, message, color")
-        .order("id", { ascending: false }) // terbaru dulu
+        .not("message", "is", null) // 🔹 hanya yang punya pesan
+        .neq("message", "") // 🔹 bukan string kosong
+        .order("id", { ascending: false }) // 🔹 urut terbaru dulu
         .range(start, end);
 
       if (error) {
