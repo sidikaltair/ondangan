@@ -1,24 +1,32 @@
 import React, { useEffect, useState } from "react";
+import supabase from "../../../lib/supabaseClient"; // pastikan path-nya sesuai proyekmu
 
 export default function UserWatch({ onClick }) {
-  //get params from url
-  const [to, setTo] = useState("Guest");
+  const [guestName, setGuestName] = useState("Guest");
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const url = new URL(window.location.href);
-      const toParam = url.searchParams.get("to");
+    async function fetchGuest() {
+      if (typeof window === "undefined") return;
 
-      if (toParam) {
-        // ubah tanda "-" jadi spasi dan kapital setiap kata
-        const formatted = toParam
-          .replace(/-/g, " ")
-          .replace(/\b\w/g, (char) => char.toUpperCase());
-        setTo(formatted);
-      } else {
-        setTo("Guest");
+      const url = new URL(window.location.href);
+      const slug = url.searchParams.get("to");
+      if (!slug) return;
+
+      // ambil data dari Supabase
+      const { data, error } = await supabase
+        .from("guests")
+        .select("name")
+        .eq("slug", slug)
+        .single();
+
+      if (error) {
+        console.error("Supabase error:", error);
+      } else if (data) {
+        setGuestName(data.name);
       }
     }
+
+    fetchGuest();
   }, []);
 
   return (
@@ -38,10 +46,10 @@ export default function UserWatch({ onClick }) {
             src="images/guest-icon.png"
             width={100}
             height={100}
-            alt="nikahfix"
+            alt="guest"
           />
           <p className="text-xl mt-2 group-hover:scale-125 group-hover:pt-5">
-            {to}
+            {guestName}
           </p>
         </div>
       </div>
